@@ -18,14 +18,11 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
-<<<<<<< HEAD
             $table->string('no_telp')->nullable();
             $table->string('alamat')->nullable();
             $table->enum('role', ['admin', 'konselor', 'konseli']);
             $table->enum('status', ['active', 'inactive']);
             $table->string('deskripsi')->nullable();
-=======
->>>>>>> df6467ee02f04fec18ce873eba113e91f881ec32
             $table->timestamps();
         });
     }
