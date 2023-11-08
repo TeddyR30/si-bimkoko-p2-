@@ -130,7 +130,7 @@
                         </label>
                       </div>
                       <div class="text-center">
-                        <button type="submit" class="btn btn-secondary btn-sm mb-0 me-2 mt-4 w-100" style="background-color: #3DA3C3; text-color: #FFFFFF">Register</button>
+                        <button type="submit" class="btn btn-secondary btn-sm mb-0 me-2 mt-4 w-100"  style="background-color: #3DA3C3; text-color: #FFFFFF">Register</button>
                     </div>
 
                     </form>

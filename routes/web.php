@@ -18,9 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/logins', function () {
+    return view('logins');
+})->middleware(['auth', 'verified'])->name('logins');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profiles', [ProfileController::class,'index'])->name('profile.index');
