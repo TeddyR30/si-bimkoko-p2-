@@ -74,7 +74,7 @@ return [
     |
     */
 
-    'dashboard' => RouteServiceProvider::HOME,
+    'logins' => RouteServiceProvider::HOME,
 
     /*
     |--------------------------------------------------------------------------
