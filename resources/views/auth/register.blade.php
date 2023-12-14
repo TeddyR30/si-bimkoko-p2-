@@ -35,7 +35,7 @@
                     <ul class="navbar-nav mx-auto">
                       <li class="nav-item">
                         <a class="nav-link d-flex align-items-center me-2 active" aria-current="page" href="http://127.0.0.1:8000/">
-                          <i class="fa fa-chart-pie opacity-6 text-dark me-1"></i>
+                          <i class="fa fa-dashboard opacity-6 text-dark me-1"></i>
                           Dashboard
                         </a>
                       </li>
