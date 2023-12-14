@@ -23,7 +23,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg blur border-radius-xl top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
           <div class="container-fluid ps-2 pe-0">
-            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="http://127.0.0.1:8000/">
+            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 ">
               HALAMAN LOGIN SI-BIMKOKO
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,13 +36,13 @@
             <div class="collapse navbar-collapse" id="navigation">
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                  <a class="nav-link d-flex align-items-center me-2 active" aria-current="page" href="http://127.0.0.1:8000/">
-                    <i class="fa fa-chart-pie opacity-6 text-dark me-1"></i>
+                  <a class="nav-link d-flex align-items-center me-2 active" aria-current="page" href="http://127.0.0.1:8000/dashboard">
+                    <i class="fa fa-dashboard opacity-6 text-dark me-1"></i>
                     Dashboard
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-2" href="/profiles">
+                  <a class="nav-link me-2" href="/profile">
                     <i class="fa fa-user opacity-6 text-dark me-1"></i>
                     Profile
                   </a>
@@ -129,11 +129,11 @@
                   </div>
                   <div class="form-check form-switch d-flex align-items-center mb-3">
                     <input class="form-check-input" type="checkbox" id="rememberMe" checked>
-                    <label class="form-check-label mb-0 ms-3" for="rememberMe">Remember me</label>
+                    <label class="form-check-label mb-0 ms-3" for="rememberMe">{{ __('Remember me') }}</label>
                   </div>
                   <div class="text-center">
-                    <button type="submit" class="btn btn-secondary btn-sm w-100 my-4 mb-2" style="background-color: #3DA3C3; text-color: #FFFFFF" href="'/profile">Log In</button>
-
+                    <button type="submit" class="btn btn-secondary btn-sm w-100 my-4 mb-2" style="background-color: #3DA3C3; text-color: #FFFFFF">Log In</button>
+                    <a href="'127.0.0.1:8000/dashboard"></a>
                   </div>
                   <a href="/forgot-password">Lupa Password ?</a>
                   <p class="mt-4 text-sm text-center">

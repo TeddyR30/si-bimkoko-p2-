@@ -32,8 +32,13 @@ Route::middleware('auth')->group(function () {
     Route::post('/register', 'Auth\RegisterController@register');
 });
 
-Route::get('/landing_page', function () {
-    return view('landing_page');
+Route::get('/dashboard', function () {
+    return view('dashboard');
 });
+
+Route::get('/berjalan', function () {
+    return view('bimbingan/berjalan');
+});
+
 
 require __DIR__.'/auth.php';
