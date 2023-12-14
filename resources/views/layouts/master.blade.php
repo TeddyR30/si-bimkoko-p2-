@@ -19,9 +19,7 @@
   <link href="{{ asset("css/nucleo-svg.css")}}" rel="stylesheet" />
   <!-- CSS Files -->
   <link id="pagestyle" href="{{ asset("css/soft-ui-dashboard.css?v=1.0.7")}}" rel="stylesheet" />
-  <!-- Nepcha Analytics (nepcha.com) -->
-  <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
-  {{-- <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script> --}}
+
   <style>
     .hov:hover{
         background: radial-gradient(#3DA3C3 0%, rgba(47, 136, 255, 0.12) 90%, rgba(47, 136, 255, 0.12) 100%);
