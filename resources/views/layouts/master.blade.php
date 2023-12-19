@@ -42,7 +42,7 @@
     {{-- <div class="collapse navbar-collapse  w-100 " id="sidenav-collapse-main"> --}}
       <ul class="navbar-nav" style="overflow-y:hidden">
         <li>
-          <a class="nav-link hov" href="http://127.0.0.1:8000/">
+          <a class="nav-link hov" href="http://127.0.0.1:8000/dashboard">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg class="text-dark" width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Dashboard</title>
@@ -82,7 +82,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link hov  " href="/bimbingan">
+          <a class="nav-link hov  " href="/berjalan">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Bimbingan</title>
@@ -102,7 +102,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link hov" href="#">
+          <a class="nav-link hov" href="http://127.0.0.1:8000/Chat">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Konseling</title>
@@ -123,7 +123,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link hov  " href="#">
+          <a class="nav-link hov  " href="http://127.0.0.1:8000/Chat">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Konsultasi</title>
