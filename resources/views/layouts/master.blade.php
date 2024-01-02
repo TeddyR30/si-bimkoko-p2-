@@ -42,7 +42,7 @@
     {{-- <div class="collapse navbar-collapse  w-100 " id="sidenav-collapse-main"> --}}
       <ul class="navbar-nav" style="overflow-y:hidden">
         <li>
-          <a class="nav-link hov" href="http://127.0.0.1:8000/">
+          <a class="nav-link hov" href="http://127.0.0.1:8000/dashboard">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg class="text-dark" width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Dashboard</title>
@@ -82,7 +82,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link hov  " href="/bimbingan">
+          <a class="nav-link hov  " href="/berjalan">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Bimbingan</title>
@@ -102,7 +102,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link hov" href="#">
+          <a class="nav-link hov" href="http://127.0.0.1:8000/Chat">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Konseling</title>
@@ -123,7 +123,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link hov  " href="#">
+          <a class="nav-link hov  " href="http://127.0.0.1:8000/Chat">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Konsultasi</title>
@@ -345,7 +345,8 @@
 
         <div class="card py-1" style="background: radial-gradient(circle, rgba(61, 163, 195, 0.5), rgba(47, 136, 255, 0.12), rgba(47, 136, 255, 0.12)); width: 98%; border-radius: 20px; margin-top: 20px;">
           <div style="padding: 10px; color: #434343; font-size: 30px; font-family: Poppins; font-weight: 600; word-wrap: break-word;">Solusi Pintar Bimbingan Konseling dan Konsultasi Online</div>
-          <div style="padding: 10px; color: #434343; font-size: 18px; font-family: Poppins; font-weight: 400; word-wrap: break-word; text-align: justify; width: 50%;">Si-Bimkoko merupakan platform yang didedikasikan untuk Layanan Bimbingan Konseling dan Konsultasi di Sekolah. Si-Bimkoko menyediakan fitur yang akan menjadi alat bantu Konselor Sekolah/Guru Bimbingan Konseling dan Konsultasi secara online.</div>
+          <div style="padding: 10px; color: #434343; font-size: 18px; font-family: Poppins; font-weight: 400; word-wrap: break-word; text-align: justify; width: 50%;">Si-Bimkoko merupakan platform yang didedikasikan untuk Layanan Bimbingan Konseling dan Konsultasi di Sekolah.</div>
+          <div style="padding: 10px; color: #434343; font-size: 18px; font-family: Poppins; font-weight: 400; word-wrap: break-word; text-align: justify; width: 50%;">Si-Bimkoko menyediakan fitur yang akan menjadi alat bantu Konselor Sekolah/Guru Bimbingan Konseling dan Konsultasi secara online.</div>
         </div>
 
         <div style="border: 2px solid #F2F2F2; width: 98%; height: 88%; background: rgba(141, 145, 161, 0.21); border-radius: 20px; margin-top: 20px;">

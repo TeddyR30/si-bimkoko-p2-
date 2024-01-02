@@ -41,4 +41,5 @@ Route::get('/berjalan', function () {
 });
 
 
+
 require __DIR__.'/auth.php';
