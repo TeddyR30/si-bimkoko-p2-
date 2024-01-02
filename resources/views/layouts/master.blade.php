@@ -345,7 +345,8 @@
 
         <div class="card py-1" style="background: radial-gradient(circle, rgba(61, 163, 195, 0.5), rgba(47, 136, 255, 0.12), rgba(47, 136, 255, 0.12)); width: 98%; border-radius: 20px; margin-top: 20px;">
           <div style="padding: 10px; color: #434343; font-size: 30px; font-family: Poppins; font-weight: 600; word-wrap: break-word;">Solusi Pintar Bimbingan Konseling dan Konsultasi Online</div>
-          <div style="padding: 10px; color: #434343; font-size: 18px; font-family: Poppins; font-weight: 400; word-wrap: break-word; text-align: justify; width: 50%;">Si-Bimkoko merupakan platform yang didedikasikan untuk Layanan Bimbingan Konseling dan Konsultasi di Sekolah. Si-Bimkoko menyediakan fitur yang akan menjadi alat bantu Konselor Sekolah/Guru Bimbingan Konseling dan Konsultasi secara online.</div>
+          <div style="padding: 10px; color: #434343; font-size: 18px; font-family: Poppins; font-weight: 400; word-wrap: break-word; text-align: justify; width: 50%;">Si-Bimkoko merupakan platform yang didedikasikan untuk Layanan Bimbingan Konseling dan Konsultasi di Sekolah.</div>
+          <div style="padding: 10px; color: #434343; font-size: 18px; font-family: Poppins; font-weight: 400; word-wrap: break-word; text-align: justify; width: 50%;">Si-Bimkoko menyediakan fitur yang akan menjadi alat bantu Konselor Sekolah/Guru Bimbingan Konseling dan Konsultasi secara online.</div>
         </div>
 
         <div style="border: 2px solid #F2F2F2; width: 98%; height: 88%; background: rgba(141, 145, 161, 0.21); border-radius: 20px; margin-top: 20px;">

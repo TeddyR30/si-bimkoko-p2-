@@ -6,28 +6,31 @@
         background: conic-gradient(from 0deg, #3DA3C3, #f2f2f2, #434343);
         font-family: 'Quicksand', sans-serif
     }
-    </style>
+</style>
 
 <div class="header_section">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3">
             <div class="logo">
-                <a href="http://127.0.0.1:8000/"><img src="{{ asset('img/apple-icon.png')}}"></a>
-                <h6 class="btn btn-light" style="margin-left: 10px;">Si-Bimkoko</h6>
+                <img src="{{ asset('img/apple-icon.png')}}">
+                <button class="btn btn-light" style="margin-left: 10px">Si-Bimkoko</button>
             </div>
         </div>
         <div class="col-md-9">
           <div class="menu_text">
             <ul>
-              <div class="togle_3">
+              <div class="toogle_3">
                 <div class="menu_main">
-                  <div class="padding_left0"><a href="http://127.0.0.1:8000/register">Register</a>
-                    <span class="padding_left0"><a href="http://127.0.0.1:8000/logins">Login</a></span>
+                  <div class="padding_left0">
+                    <a href="/register">Register</a>
+                    <span class="padding_left0">
+                        <a href="/logins">Login</a>
+                    </span>
                   </div>
                 </div>
-                <div class="shoping_bag"><img src="{{ asset('landing/img/search-icon.png')}}"></div>
               </div>
+
               <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
@@ -53,10 +56,10 @@
           <div class="col-sm-5">
             <h1 class="banner_taital">Selamat Datang Di</h1>
             <h1 class="banner_taital_1">Si-Bimkoko</h1>
-            <p class="banner_text">Solusi Bimbingan Konseling & Konsultasi Online</p>
+            <p class="banner_text">Solusi Pintar Bimbingan Konseling & Konsultasi Online</p>
             <p class="banner_text">See Our Website Demonstration</p>
-            <div class="contact_bt"><a href="http://127.0.0.1:8000">Check This<span class="contact_padding"><img
-                    src="{{ asset('landing/img/contact-icon.png')}}"></span></a></div>
+            {{-- <div class="contact_btn"><a href="http://127.0.0.1:8000">Check This<span class="contact_padding"><img
+                    src="{{ asset('landing/img/contact-icon.png')}}"></span></a></div> --}}
           </div>
           <div class="col-sm-2 d-flex justify-content-center">
             <div class="play_icon">
